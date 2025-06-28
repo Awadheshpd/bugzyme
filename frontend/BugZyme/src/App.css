@@ -57,3 +57,23 @@
   font-weight: 600;
   font-style: italic;
 }
+
+.services-container,
+.blogs-page {
+  ul {
+    list-style: none;
+  }
+  li {
+    padding-left: var(--icon-space);
+  }
+  li:before {
+    content: "•";
+    font-size: 15px;
+    vertical-align: top;
+    padding-right: 7px;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc(var(--icon-space) * -1);
+    width: var(--icon-space);
+  }
+}
