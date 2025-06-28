@@ -18,6 +18,16 @@ export default function () {
           <strong>Delivery and Ops Heads</strong> with international exposure
         </li>
       </ul>
+      <div className="about-details">
+        <p>
+          <strong>Our Mission:</strong> To catalyze quality in systems that
+          impact health, finance, research, and digital transformation.
+        </p>
+        <p>
+          <strong>Our Vision:</strong> To become the gold standard in
+          dual-domain QA globally.
+        </p>
+      </div>
     </>
   );
 }
