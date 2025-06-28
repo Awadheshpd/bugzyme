@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "./pages/Layout";
+import Services from "./pages/Services";
 
 const routes = [
   {
@@ -20,6 +21,7 @@ const routes = [
       { path: "/career", element: <Career /> },
       { path: "/contact-us", element: <ContactUs /> },
       { path: "/blogs", element: <Blogs /> },
+      { path: "/services", element: <Services /> },
     ],
   },
 ];
