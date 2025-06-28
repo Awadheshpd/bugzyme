@@ -1,8 +1,13 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  height: 100vh;
+  margin: 0;
+  width: 100vw;
+}
+#root .nav {
+  justify-content: flex-end;
 }
 
 .logo {
