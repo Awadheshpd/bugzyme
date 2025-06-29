@@ -10,7 +10,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "publish": "npm run deploy -- -m \"Deploy React app to GitHub Pages\""
   },
   "dependencies": {
     "bootstrap": "^5.3.7",

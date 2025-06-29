@@ -12,16 +12,16 @@ import Services from "./pages/Services";
 
 const routes = [
   {
-    path: "/",
+    path: "bugzyme",
     element: <Layout />,
-    errorElement: <h2>No page found</h2>,
+    errorElement: <h2>Page not found</h2>,
     children: [
-      { path: "/about", element: <About /> },
-      { path: "/home", element: <Home /> },
-      { path: "/career", element: <Career /> },
-      { path: "/contact-us", element: <ContactUs /> },
-      { path: "/blogs", element: <Blogs /> },
-      { path: "/services", element: <Services /> },
+      { path: "about", element: <About /> },
+      { path: "home", element: <Home /> },
+      { path: "career", element: <Career /> },
+      { path: "contact-us", element: <ContactUs /> },
+      { path: "blogs", element: <Blogs /> },
+      { path: "services", element: <Services /> },
     ],
   },
 ];

@@ -7,32 +7,32 @@ export default function () {
         <span className="app-title">BugZyme</span>
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link className="nav-link" to="/home">
+            <Link className="nav-link" to="home">
               Home
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/about">
+            <Link className="nav-link" to="about">
               About
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/contact-us">
+            <Link className="nav-link" to="contact-us">
               Contact Us
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/career">
+            <Link className="nav-link" to="career">
               Career
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/blogs">
+            <Link className="nav-link" to="blogs">
               Blogs
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/services">
+            <Link className="nav-link" to="services">
               Services
             </Link>
           </li>
